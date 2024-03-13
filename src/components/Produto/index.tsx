@@ -37,7 +37,7 @@ const ProdutoComponent = ({ produto }: Props) => {
     if (!estaNosFavoritos) {
       dispatch(favoritar(produto))
     } else {
-      dispatch(favoritar(produto)) // Remover dos favoritos
+      dispatch(favoritar(produto))
     }
   }
 

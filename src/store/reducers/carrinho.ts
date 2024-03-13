@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-import { RootReducer } from '../../store' // Importe o RootState corretamente
+import { RootReducer } from '../../store'
 import { Produto } from '../../App'
 
 type CarrinhoState = {
